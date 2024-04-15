@@ -1,0 +1,13 @@
+<app-page-title></app-page-title>
+
+
+<div class="flex mt-32"  >
+</div>
+
+
+<app-task-list
+
+    [taskList]="taskList"
+    (important)="onImportant($event)"
+    (complete)="onComplete($event)"
+    ></app-task-list>
